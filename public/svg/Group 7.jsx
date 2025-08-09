@@ -1,0 +1,29 @@
+import * as React from "react";
+const GroupSVGComponent = (props) => (
+    <svg
+        width={59}
+        height={68}
+        viewBox="0 0 59 68"
+        fill="none"
+        {...props}
+    >
+        <path
+            d="M14.75 8.5C23.8668 3.24624 35.1332 3.24624 44.25 8.5C53.3634 13.7518 59 23.4817 59 34C59 44.5183 53.3634 54.2482 44.25 59.5C35.1332 64.7538 23.8668 64.7538 14.75 59.5C5.63661 54.2482 0 44.5183 0 34C0 23.4817 5.63661 13.7518 14.75 8.5Z"
+            fill="url(#paint0_linear_24158_13)"
+        />
+        <defs>
+            <linearGradient
+                id="paint0_linear_24158_13"
+                x1={29.5}
+                y1={0}
+                x2={29.5}
+                y2={68}
+                gradientUnits="userSpaceOnUse"
+            >
+                <stop stopColor="#28A745" />
+                <stop offset={1} stopColor="#10411B" />
+            </linearGradient>
+        </defs>
+    </svg>
+);
+export default GroupSVGComponent;

@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+
+
+.active {
+  @apply text-[#28a745];
+}
+:root {
+  --primary: #28a745;
+  --yekan: yekan;
+  --yekan-bole: yekan-bold;
+  --complementary: #009eca;
+  --signal: #282828b2;
+}
+@theme inline {
+  --font-yekan: var(--yekan);
+  --font-yekan-bold: var(--yekan-bole);
+  --color-primary: var(--primary);
+  /* --color-secondary: green; */
+  --color-complementary: var(--complementary);
+  --color-signal: var(--signal);
+}
